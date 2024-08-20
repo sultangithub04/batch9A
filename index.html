@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Batch 09 assignment</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/882bf6759f.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <header class="container mx-auto">
+        <nav>
+            <div class="navbar bg-base-100 ">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                            <li><a>Home</a></li>
+                            <li><a>about</a></li>
+                            <li><a>pages</a></li>
+                            <li><a>Blog</a></li>
+                            <li><a>content</a></li>
+
+                        </ul>
+                    </div>
+                    <a class="btn btn-ghost text-4xl font-bold">Hockey<span class="text-red-500">’</span>s</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1 text-xl font-semibold">
+                        <li class="hover:text-red-500 duration-3s ease-in-out"><a>Home</a></li>
+                        <li class="hover:text-red-500 duration-3s ease-in-out"><a>about</a></li>
+                        <li class="hover:text-red-500 duration-3s ease-in-out"><a>pages</a></li>
+                        <li class="hover:text-red-500 duration-3s ease-in-out"><a>Blog</a></li>
+                        <li class="hover:text-red-500 duration-3s ease-in-out"><a>content</a></li>
+
+                    </ul>
+                </div>
+                <div class="navbar-end flex gap-4">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a class="btn btn-error text-white">Get Ticket</a>
+                </div>
+            </div>
+        </nav>
+        <!-- banner part -->
+        <div class="relative">
+
+            <div class="carousel w-full">
+                <div id="slide1" class="carousel-item relative w-full">
+                    <img src="./Images/1.png" class="w-full" />
+                    <div class="absolute left-5 gap-4 bottom-2 flex -translate-y-1/2 transform justify-between">
+                        <a href="#slide3" class="btn btn-circle  bg-black border-none text-white">❮</a>
+                        <a href="#slide2" class="btn btn-circle  bg-black border-none text-white">❯</a>
+                    </div>
+                </div>
+                <div id="slide2" class="carousel-item relative w-full">
+                    <img src="https://img.daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.webp"
+                        class="w-full" />
+                    <div class="absolute left-5 gap-4 bottom-2 flex -translate-y-1/2 transform justify-between">
+                        <a href="#slide1" class="btn btn-circle bg-black border-none text-white">❮</a>
+                        <a href="#slide3" class="btn btn-circle  bg-black border-none text-white">❯</a>
+                    </div>
+                </div>
+                <div id="slide3" class="carousel-item relative w-full">
+                    <img src="https://img.daisyui.com/images/stock/photo-1414694762283-acccc27bca85.webp"
+                        class="w-full" />
+                    <div class="absolute left-5 gap-4 bottom-2 flex -translate-y-1/2 transform justify-between">
+                        <a href="#slide2" class="btn btn-circle  bg-black border-none text-white">❮</a>
+                        <a href="#slide1" class="btn btn-circle  bg-black border-none text-white">❯</a>
+                    </div>
+                </div>
+                <!-- over positon -->
+
+            </div>
+            <div class="lg:w-1/3 bg-slate-900 text-white py-12 px-6 rounded space-y-4 lg:absolute bottom-12 right-12">
+                <h6 class="text-2xl font-semibold">Meet all the heroes from the field</h6>
+                <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in
+                    sit nullam proin. </p>
+
+            </div>
+        </div>
+    </header>
+    <main class="container mx-auto mt-11">
+        <section class=" border-2 border-dashed">
+            <div class="md:w-1/2 mx-auto text-center space-y-4">
+                <h3 class="text-3xl font-bold">Professional Hockeys Club</h3>
+                <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in
+                    sit
+                    nullam proin. </p>
+            </div>
+        </section>
+        <section class="mt-24 grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div class="space-y-3 flex flex-col items-center">
+                <div class="relative">
+                    <div class="z-50  radial-progress text-primary" style="--value:70;" role="progressbar">
+                        70%</div>
+                    <div class="rotate-90 radial-progress text-stone-300 absolute left-0 top-0" style="--value:90;" role="progressbar"></div>
+                </div>
+                <h3 class="text-1xl font-semibold">Prayer Facility</h3>
+                <p class="text-center">Amet consectetur. Condimentum dignissim adipiscing .</p>
+            </div>
+            <div class="text-center space-y-3">
+                <div class="radial-progress text-blue-600" style="--value:80;" role="progressbar">80%</div>
+                <h3 class="text-1xl font-semibold">Prayer Facility</h3>
+                <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+            </div>
+            <div class="text-center space-y-3 mb-8">
+                <div class="radial-progress text-red-400" style="--value:85;" role="progressbar">85%</div>
+                <h3 class="text-1xl font-semibold">Prayer Facility</h3>
+                <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+            </div>
+            <div class="text-center space-y-3">
+                <div class="radial-progress text-yellow-500" style="--value:90;" role="progressbar">90%</div>
+                <h3 class="text-1xl font-semibold">Prayer Facility</h3>
+                <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+            </div>
+        </section>
+
+    </main>
+</body>
+
+</html>
